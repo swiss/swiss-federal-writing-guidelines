@@ -1,0 +1,1 @@
+# swiss-federal-language-guidelines
