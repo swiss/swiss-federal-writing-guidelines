@@ -1,0 +1,18 @@
+# Reports and temporary files
+CLAUDE.md
+
+# OS generated files / Google Drive
+.DS_Store
+Thumbs.db
+Desktop.ini
+Icon?
+
+# Temporary/Backup files
+*~
+*.swp
+*.bak
+
+# IDE settings
+.claude/
+.vscode/
+.idea/
