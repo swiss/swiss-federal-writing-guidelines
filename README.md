@@ -1,4 +1,4 @@
-# Swiss Federal Writing Guidelines Skill (Claude Code)
+# Swiss Federal Writing Guidelines Skill - For AI Use
 
 [English](#english) | [Deutsch](#deutsch) | [Français](#français) | [Italiano](#italiano)
 
@@ -30,11 +30,16 @@ This repository provides a **Skill** for **Claude Code** (automatically loaded v
   1. Go to [claude.ai/customize/skills](https://claude.ai/customize/skills).
   2. Click **"+"**, then **"Upload a skill"**.
   3. Select the `swiss-federal-writing-guidelines.skill` file.
-  4. In any chat, call the skill by typing: ``using "swiss-federal-writing-guidelines" skill, can you...``
+  4. In any chat, call the skill by typing: ``Using "swiss-federal-writing-guidelines" skill, can you please check this text?``
+  5. [See image below](images/skill-claude_en.png)
 - **With Claude Code (CLI)**: Simply keep `SKILL.md` in your project root; it loads automatically.
 - **Other AI Tools (ChatGPT, Gemini, etc.)**:
   1. Upload the reference file for your language (e.g., `references/en.md`).
-  2. Ask: *"Using the file en.md which contains the official writing rules for the Swiss Federal Chancellery, can you review the attached text?"*
+  2. Ask: *"Think hard — take as long as needed. I prefer a precise response to a fast one. Using the file en.md which contains the official writing rules for the Swiss Federal Chancellery, can you review the attached text?"*
+  3. [See image below](images/web-chatgpt_en.png)
+
+![Claude skill interface](images/skill-claude_en.png)
+![ChatGPT web interface](images/web-chatgpt_en.png)
 
 ### 📄 License
 **This repository is free to use and open to everyone.** 
@@ -68,11 +73,16 @@ Dieses Repository bietet einen **Skill** für **Claude Code** (wird automatisch 
   1. Gehen Sie zu [claude.ai/customize/skills](https://claude.ai/customize/skills).
   2. Klicken Sie auf **"+"**, dann auf **"Upload a skill"**.
   3. Wählen Sie die Datei `swiss-federal-writing-guidelines.skill` aus.
-  4. In jedem Chat können Sie den Skill aufrufen mit: ``using "swiss-federal-writing-guidelines" skill, can you...``
+  4. In jedem Chat können Sie den Skill aufrufen mit: ``Kannst du diesen Text mit dem Skill "swiss-federal-writing-guidelines" überprüfen?``
+  5. [Siehe Abbildung unten](images/skill-claude_de.png)
 - **Mit Claude Code (CLI)**: Behalten Sie `SKILL.md` einfach im Stammverzeichnis; es wird automatisch geladen.
 - **Andere KI-Tools (ChatGPT, Gemini usw.)**:
   1. Laden Sie die Referenzdatei für Ihre Sprache hoch (z. B. `references/de.md`).
-  2. Fragen Sie: *"Verwende die Datei de.md, welche die offiziellen Schreibregeln der Schweizerischen Bundeskanzlei enthält, um den beigefügten Text zu überprüfen."*
+  2. Fragen Sie: *"Nimm dir so viel Zeit wie nötig. Ich bevorzuge eine präzise Antwort gegenüber einer schnellen. Verwende die Datei de.md, welche die offiziellen Schreibregeln der Schweizerischen Bundeskanzlei enthält, um den beigefügten Text zu überprüfen."*
+  3. [Siehe Abbildung unten](images/web-chatgpt_de.png)
+
+![Claude Skill-Oberfläche](images/skill-claude_de.png)
+![ChatGPT Weboberfläche](images/web-chatgpt_de.png)
 
 ### 📄 Lizenz
 **Dieses Repository ist für alle frei und kostenlos nutzbar.** 
@@ -106,11 +116,16 @@ Ce dépôt propose une **compétence (Skill)** pour **Claude Code** (chargée au
   1. Allez sur [claude.ai/customize/skills](https://claude.ai/customize/skills).
   2. Cliquez sur **"+"**, puis sur **"Upload a skill"**.
   3. Sélectionnez le fichier `swiss-federal-writing-guidelines.skill`.
-  4. Dans n'importe quel chat, appelez la compétence en tapant : ``using "swiss-federal-writing-guidelines" skill, can you...``
+  4. Dans n'importe quel chat, appelez la compétence en tapant : ``En utilisant le skill "swiss-federal-writing-guidelines", peux-tu vérifier ce texte ?``
+  5. [Voir l'image ci-dessous](images/skill-claude_fr.png)
 - **Avec Claude Code (CLI)** : Gardez simplement `SKILL.md` à la racine ; il se charge automatiquement.
 - **Autres outils IA (ChatGPT, Gemini, etc.)** :
   1. Téléversez le fichier de référence de la langue voulue (ex: `references/fr.md`).
-  2. Demandez : *"En utilisant le fichier fr.md qui contient les règles de rédaction officielles de la Chancellerie fédérale suisse, peux-tu réviser le texte joint ?"*
+  2. Demandez : *"Prends le temps qu'il faut. Je préfère une réponse précise à une réponse rapide. En utilisant le fichier fr.md qui contient les règles de rédaction officielles de la Chancellerie fédérale suisse, peux-tu réviser le texte joint ?"*
+  3. [Voir l'image ci-dessous](images/web-chatgpt_fr.png)
+
+![Interface skill Claude](images/skill-claude_fr.png)
+![Interface web ChatGPT](images/web-chatgpt_fr.png)
 
 ### 📄 Licence
 **L'utilisation de ce dépôt est libre et gratuite pour tous.** 
@@ -144,11 +159,16 @@ Questo repository fornisce una **Skill** per **Claude Code** (caricata automatic
   1. Vai su [claude.ai/customize/skills](https://claude.ai/customize/skills).
   2. Fai clic su **"+"**, quindi su **"Upload a skill"**.
   3. Seleziona il file `swiss-federal-writing-guidelines.skill`.
-  4. In qualsiasi chat, chiama la skill digitando: ``using "swiss-federal-writing-guidelines" skill, can you...``
+  4. In qualsiasi chat, chiama la skill digitando: ``Puoi verificare questo testo usando lo skill "swiss-federal-writing-guidelines"?``
+  5. [Vedi immagine sotto](images/skill-claude_it.png)
 - **Con Claude Code (CLI)**: Basta tenere `SKILL.md` nella radice; si carica automaticamente.
 - **Altri strumenti IA (ChatGPT, Gemini, ecc.)**:
   1. Carica il file di riferimento per la lingua desiderata (es. `references/it.md`).
-  2. Chiedi: *"Usando il file it.md che contiene le regole di redazione ufficiali della Cancelleria federale svizzera, puoi revisionare il testo allegato?"*
+  2. Chiedi: *"Prenditi tutto il tempo necessario. Preferisco una risposta precisa a una veloce. Usando il file it.md che contiene le regole di redazione ufficiali della Cancelleria federale svizzera, puoi revisionare il testo allegato?"*
+  3. [Vedi immagine sotto](images/web-chatgpt_it.png)
+
+![Interfaccia skill Claude](images/skill-claude_it.png)
+![Interfaccia web ChatGPT](images/web-chatgpt_it.png)
 
 ### 📄 Licenza
 **L'uso di questo repository è libero e gratuito per tutti.** 
