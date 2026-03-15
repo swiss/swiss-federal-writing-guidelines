@@ -21,20 +21,31 @@ This repository provides a **Skill** for **Claude Code** (automatically loaded v
 ### 📂 Project Structure
 - `swiss-federal-writing-guidelines.skill`: Packaged skill for easy import into Claude.ai.
 - `SKILL.md`: Core logic and system instructions for Claude Code.
+- `custom-gpt-instructions.md`: Setup guide and instructions for the ChatGPT Custom GPT.
 - `references/`: AI-ready prompts and structured rules for each language.
 - `sources/`: Original official PDFs and source documents for verification.
 - `CLAUDE.md`: Technical documentation for project maintenance.
 
 ### 🚀 Usage
+
+| Client | Mode | Rating | Comment |
+|---|---|---|---|
+| Claude | Paid | ⭐⭐⭐⭐⭐ | As a skill |
+| Claude | Free | ⭐⭐⭐⭐ | As a skill |
+| ChatGPT | Custom GPT | ⭐⭐⭐ | As a Custom GPT |
+| Any client | Paid | ⭐⭐ | By pasting the relevant reference file into the chat |
+| Any client | Free | ⭐ | By pasting the relevant reference file into the chat |
+
 - **With Claude (Web Interface)**:
   1. Go to [claude.ai/customize/skills](https://claude.ai/customize/skills).
   2. Click **"+"**, then **"Upload a skill"**.
-  3. Select the `swiss-federal-writing-guidelines.skill` file.
+  3. Select the [`swiss-federal-writing-guidelines.skill`](swiss-federal-writing-guidelines.skill) file.
   4. In any chat, call the skill by typing: ``Using "swiss-federal-writing-guidelines" skill, can you please check this text?``
   5. [See image below](images/skill-claude_en.png)
 - **With Claude Code (CLI)**: Simply keep `SKILL.md` in your project root; it loads automatically.
+- **With ChatGPT (Custom GPT)**: Simply click on this link: [Swiss Federal Writing Guidelines GPT](https://chatgpt.com/g/g-69b5983c69bc819196fa93a97603f406-swiss-federal-writing-guidelines-gpt/)
 - **Other AI Tools (ChatGPT, Gemini, etc.)**:
-  1. Upload the reference file for your language (e.g., `references/en.md`).
+  1. Upload the reference file for your language (e.g., [`references/en.md`](references/en.md)).
   2. Ask: *"Think hard — take as long as needed. I prefer a precise response to a fast one. Using the file en.md which contains the official writing rules for the Swiss Federal Chancellery, can you review the attached text?"*
   3. [See image below](images/web-chatgpt_en.png)
 
@@ -64,20 +75,31 @@ Dieses Repository bietet einen **Skill** für **Claude Code** (wird automatisch 
 ### 📂 Projektstruktur
 - `swiss-federal-writing-guidelines.skill`: Gepackter Skill zum einfachen Import in Claude.ai.
 - `SKILL.md`: Kernlogik und Systemanweisungen für Claude Code.
+- `custom-gpt-instructions.md`: Einrichtungsanleitung und Anweisungen für den ChatGPT Custom GPT.
 - `references/`: KI-bereite Prompts und strukturierte Regeln für jede Sprache.
 - `sources/`: Originale offizielle PDFs und Quelldokumente zur Überprüfung.
 - `CLAUDE.md`: Technische Dokumentation für die Projektpflege.
 
 ### 🚀 Verwendung
+
+| Client | Modus | Bewertung | Kommentar |
+|---|---|---|---|
+| Claude | Paid | ⭐⭐⭐⭐⭐ | Als Skill |
+| Claude | Free | ⭐⭐⭐⭐ | Als Skill |
+| ChatGPT | Custom GPT | ⭐⭐⭐ | Als Custom GPT |
+| Any client | Paid | ⭐⭐ | Durch Einfügen der relevanten Referenzdatei in den Chat |
+| Any client | Free | ⭐ | Durch Einfügen der relevanten Referenzdatei in den Chat |
+
 - **Mit Claude (Weboberfläche)**:
   1. Gehen Sie zu [claude.ai/customize/skills](https://claude.ai/customize/skills).
   2. Klicken Sie auf **"+"**, dann auf **"Upload a skill"**.
-  3. Wählen Sie die Datei `swiss-federal-writing-guidelines.skill` aus.
+  3. Wählen Sie die Datei [`swiss-federal-writing-guidelines.skill`](swiss-federal-writing-guidelines.skill) aus.
   4. In jedem Chat können Sie den Skill aufrufen mit: ``Kannst du diesen Text mit dem Skill "swiss-federal-writing-guidelines" überprüfen?``
   5. [Siehe Abbildung unten](images/skill-claude_de.png)
 - **Mit Claude Code (CLI)**: Behalten Sie `SKILL.md` einfach im Stammverzeichnis; es wird automatisch geladen.
+- **Mit ChatGPT (Custom GPT)**: Einfach auf diesen Link klicken: [Swiss Federal Writing Guidelines GPT](https://chatgpt.com/g/g-69b5983c69bc819196fa93a97603f406-swiss-federal-writing-guidelines-gpt/)
 - **Andere KI-Tools (ChatGPT, Gemini usw.)**:
-  1. Laden Sie die Referenzdatei für Ihre Sprache hoch (z. B. `references/de.md`).
+  1. Laden Sie die Referenzdatei für Ihre Sprache hoch (z. B. [`references/de.md`](references/de.md)).
   2. Fragen Sie: *"Nimm dir so viel Zeit wie nötig. Ich bevorzuge eine präzise Antwort gegenüber einer schnellen. Verwende die Datei de.md, welche die offiziellen Schreibregeln der Schweizerischen Bundeskanzlei enthält, um den beigefügten Text zu überprüfen."*
   3. [Siehe Abbildung unten](images/web-chatgpt_de.png)
 
@@ -107,20 +129,31 @@ Ce dépôt propose une **compétence (Skill)** pour **Claude Code** (chargée au
 ### 📂 Structure du Projet
 - `swiss-federal-writing-guidelines.skill` : Compétence groupée pour un import facile dans Claude.ai.
 - `SKILL.md` : Logique centrale et instructions système pour Claude Code.
+- `custom-gpt-instructions.md` : Guide de configuration et instructions pour le Custom GPT ChatGPT.
 - `references/` : Prompts optimisés pour l'IA et règles structurées par langue.
 - `sources/` : Documents PDF et sources officielles originales pour vérification.
 - `CLAUDE.md` : Documentation technique pour la maintenance du projet.
 
 ### 🚀 Utilisation
+
+| Client | Mode | Évaluation | Commentaire |
+|---|---|---|---|
+| Claude | Paid | ⭐⭐⭐⭐⭐ | En tant que skill |
+| Claude | Free | ⭐⭐⭐⭐ | En tant que skill |
+| ChatGPT | Custom GPT | ⭐⭐⭐ | En tant que Custom GPT |
+| Any client | Paid | ⭐⭐ | En collant le fichier de référence pertinent dans le chat |
+| Any client | Free | ⭐ | En collant le fichier de référence pertinent dans le chat |
+
 - **Avec Claude (Interface Web)** :
   1. Allez sur [claude.ai/customize/skills](https://claude.ai/customize/skills).
   2. Cliquez sur **"+"**, puis sur **"Upload a skill"**.
-  3. Sélectionnez le fichier `swiss-federal-writing-guidelines.skill`.
+  3. Sélectionnez le fichier [`swiss-federal-writing-guidelines.skill`](swiss-federal-writing-guidelines.skill).
   4. Dans n'importe quel chat, appelez la compétence en tapant : ``En utilisant le skill "swiss-federal-writing-guidelines", peux-tu vérifier ce texte ?``
   5. [Voir l'image ci-dessous](images/skill-claude_fr.png)
 - **Avec Claude Code (CLI)** : Gardez simplement `SKILL.md` à la racine ; il se charge automatiquement.
+- **Avec ChatGPT (Custom GPT)** : Cliquez simplement sur ce lien : [Swiss Federal Writing Guidelines GPT](https://chatgpt.com/g/g-69b5983c69bc819196fa93a97603f406-swiss-federal-writing-guidelines-gpt/)
 - **Autres outils IA (ChatGPT, Gemini, etc.)** :
-  1. Téléversez le fichier de référence de la langue voulue (ex: `references/fr.md`).
+  1. Téléversez le fichier de référence de la langue voulue (ex : [`references/fr.md`](references/fr.md)).
   2. Demandez : *"Prends le temps qu'il faut. Je préfère une réponse précise à une réponse rapide. En utilisant le fichier fr.md qui contient les règles de rédaction officielles de la Chancellerie fédérale suisse, peux-tu réviser le texte joint ?"*
   3. [Voir l'image ci-dessous](images/web-chatgpt_fr.png)
 
@@ -150,20 +183,31 @@ Questo repository fornisce una **Skill** per **Claude Code** (caricata automatic
 ### 📂 Struttura del Progetto
 - `swiss-federal-writing-guidelines.skill`: Skill pacchettizzata per un facile import in Claude.ai.
 - `SKILL.md`: Logica centrale e istruzioni di sistema per Claude Code.
+- `custom-gpt-instructions.md`: Guida alla configurazione e istruzioni per il Custom GPT di ChatGPT.
 - `references/`: Prompt pronti per l'IA e regole strutturate per ogni lingua.
 - `sources/`: PDF ufficiali originali e documenti sorgente per la verifica.
 - `CLAUDE.md`: Documentazione tecnica per la manutenzione del progetto.
 
 ### 🚀 Utilizzo
+
+| Client | Modalità | Valutazione | Commento |
+|---|---|---|---|
+| Claude | Paid | ⭐⭐⭐⭐⭐ | Come skill |
+| Claude | Free | ⭐⭐⭐⭐ | Come skill |
+| ChatGPT | Custom GPT | ⭐⭐⭐ | Come Custom GPT |
+| Any client | Paid | ⭐⭐ | Incollando il file di riferimento pertinente nella chat |
+| Any client | Free | ⭐ | Incollando il file di riferimento pertinente nella chat |
+
 - **Con Claude (Interfaccia Web)**:
   1. Vai su [claude.ai/customize/skills](https://claude.ai/customize/skills).
   2. Fai clic su **"+"**, quindi su **"Upload a skill"**.
-  3. Seleziona il file `swiss-federal-writing-guidelines.skill`.
+  3. Seleziona il file [`swiss-federal-writing-guidelines.skill`](swiss-federal-writing-guidelines.skill).
   4. In qualsiasi chat, chiama la skill digitando: ``Puoi verificare questo testo usando lo skill "swiss-federal-writing-guidelines"?``
   5. [Vedi immagine sotto](images/skill-claude_it.png)
 - **Con Claude Code (CLI)**: Basta tenere `SKILL.md` nella radice; si carica automaticamente.
+- **Con ChatGPT (Custom GPT)**: Clicca semplicemente su questo link: [Swiss Federal Writing Guidelines GPT](https://chatgpt.com/g/g-69b5983c69bc819196fa93a97603f406-swiss-federal-writing-guidelines-gpt/)
 - **Altri strumenti IA (ChatGPT, Gemini, ecc.)**:
-  1. Carica il file di riferimento per la lingua desiderata (es. `references/it.md`).
+  1. Carica il file di riferimento per la lingua desiderata (es. [`references/it.md`](references/it.md)).
   2. Chiedi: *"Prenditi tutto il tempo necessario. Preferisco una risposta precisa a una veloce. Usando il file it.md che contiene le regole di redazione ufficiali della Cancelleria federale svizzera, puoi revisionare il testo allegato?"*
   3. [Vedi immagine sotto](images/web-chatgpt_it.png)
 
