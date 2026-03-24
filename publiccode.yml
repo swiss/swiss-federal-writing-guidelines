@@ -1,0 +1,317 @@
+publiccodeYmlVersion: 0.5.0
+name: Swiss Federal Writing Guidelines
+url: https://github.com/swiss/swiss-federal-writing-guidelines
+platforms:
+  - web
+  - windows
+  - mac
+  - linux
+developmentStatus: beta
+softwareType: library
+organisation:
+  uri: https://ld.admin.ch/FCh
+  name: Federal Chancellery
+description:
+  en:
+    localisedName: Swiss Confederation Editorial Assistant
+    shortDescription: Checks and corrects official texts in French, German, Italian
+      and English in line with the editorial and typographic rules of the
+      Federal Chancellery.
+    longDescription: >-
+      The Swiss Confederation Editorial Assistant is designed to review official
+      texts intended for the Federal Administration or for comparable
+      institutional contexts.
+
+
+      The GPT works in two stages. First, it carries out a full grammatical
+      review in accordance with the standard rules of the language concerned.
+      Secondly, it checks compliance with the Federal Chancellery’s editorial
+      and typographic guidelines, for example in relation to capitalisation,
+      dates, numbers, abbreviations, quotation marks, dashes, spacing and other
+      drafting conventions.
+
+
+      The system supports four languages:
+
+
+      French (Switzerland)
+
+      German (Switzerland)
+
+      Italian (Switzerland)
+
+      British English
+
+
+      For each issue identified, the GPT provides:
+
+
+      the type of error
+
+      the location in the text
+
+      the context
+
+      the original wording
+
+      the proposed correction
+
+      the reference to the applicable rule
+
+
+      This tool is particularly suitable for reviewing:
+
+
+      reports and dispatches
+
+      communications and institutional documentation
+
+      normative or quasi-normative texts
+
+      factsheets and multilingual administrative content
+
+
+      It does not freely rewrite texts and does not intervene in subjective
+      stylistic preferences. It identifies only objective breaches of grammar or
+      of the applicable editorial rules.
+    apiDocumentation: https://github.com/swiss/swiss-federal-writing-guidelines
+    features:
+      - Full grammatical review of the text
+      - Verification of the Federal Chancellery’s editorial rules
+      - Clear distinction between grammar errors and editorial errors
+      - Reasoned corrections with reference to the applicable rule
+      - Support for French, German, Italian and British English
+      - Structured output format for internal review
+      - Generation of a reusable correction report
+  de-CH:
+    localisedName: Redaktionsassistent der Schweizerischen Eidgenossenschaft
+    shortDescription: Prüft und korrigiert amtliche Texte gemäss den redaktionellen
+      und typografischen Regeln der Bundeskanzlei.
+    longDescription: >-
+      Der Redaktionsassistent der Schweizerischen Eidgenossenschaft ist für die
+      Prüfung amtlicher Texte bestimmt, die für die Bundesverwaltung oder für
+      vergleichbare institutionelle Kontexte verfasst werden.
+
+
+      Das GPT arbeitet in zwei Schritten. Im ersten Schritt führt es eine
+      vollständige grammatikalische Überprüfung nach der Standardnorm der
+      jeweiligen Sprache durch. Im zweiten Schritt prüft es die Einhaltung der
+      redaktionellen und typografischen Vorgaben der Bundeskanzlei, zum Beispiel
+      bei Gross- und Kleinschreibung, Datumsangaben, Zahlen, Abkürzungen,
+      Anführungszeichen, Gedankenstrichen, Leerzeichen und weiteren
+      redaktionellen Konventionen.
+
+
+      Das System unterstützt vier Sprachen:
+
+
+      Deutsch (Schweiz)
+
+      Französisch (Schweiz)
+
+      Italienisch (Schweiz)
+
+      britisches Englisch
+
+
+      Für jedes festgestellte Problem liefert das GPT:
+
+
+      die Fehlerart
+
+      die Fundstelle im Text
+
+      den Kontext
+
+      die ursprüngliche Formulierung
+
+      den Korrekturvorschlag
+
+      den Verweis auf die anwendbare Regel
+
+
+      Dieses Werkzeug eignet sich besonders für die Prüfung von:
+
+
+      Botschaften und Berichten
+
+      Mitteilungen und institutionellen Dokumentationen
+
+      normativen oder normnahen Texten
+
+      Informationsblättern und mehrsprachigen Verwaltungstexten
+
+
+      Es formuliert Texte nicht frei um und greift nicht in subjektive
+      Stilfragen ein, sondern kennzeichnet ausschliesslich objektive Verstösse
+      gegen grammatikalische Regeln oder gegen anwendbare redaktionelle
+      Vorgaben.
+    apiDocumentation: https://github.com/swiss/swiss-federal-writing-guidelines
+    features:
+      - Vollständige grammatikalische Überprüfung des Textes
+      - Kontrolle der redaktionellen Regeln der Bundeskanzlei
+      - Unterscheidung zwischen Grammatikfehlern und redaktionellen Fehlern
+      - Begründete Korrekturen mit Verweis auf die anwendbare Regel
+      - Unterstützung für Französisch, Deutsch, Italienisch und britisches
+        Englisch
+      - Strukturiertes Ausgabeformat für die interne Revision
+      - Erstellung eines wiederverwendbaren Korrekturberichts
+  fr-CH:
+    localisedName: Assistant rédactionnel de la Confédération suisse
+    shortDescription: Vérifie et corrige les textes officiels selon les règles
+      rédactionnelles et typographiques de la Chancellerie fédérale.
+    longDescription: >-
+      L’Assistant rédactionnel de la Confédération suisse est conçu pour
+      vérifier des textes officiels destinés à l’Administration fédérale ou à
+      des contextes institutionnels comparables.
+
+
+      Le GPT procède en deux étapes. Dans un premier temps, il effectue une
+      révision grammaticale complète selon la norme standard de la langue du
+      texte. Dans un second temps, il contrôle la conformité avec les directives
+      rédactionnelles et typographiques de la Chancellerie fédérale, par exemple
+      en matière de majuscules et minuscules, de dates, de nombres,
+      d’abréviations, de guillemets, de tirets, d’espaces et d’autres
+      conventions rédactionnelles.
+
+
+      Le système prend en charge quatre langues :
+
+
+      le français (Suisse)
+
+      l’allemand (Suisse)
+
+      l’italien (Suisse)
+
+      l’anglais britannique
+
+
+      Pour chaque problème relevé, le GPT fournit :
+
+
+      le type d’erreur
+
+      l’emplacement dans le texte
+
+      le contexte
+
+      la forme originale
+
+      la correction proposée
+
+      la référence à la règle applicable
+
+
+      Cet outil est particulièrement adapté à la révision :
+
+
+      de messages et de rapports
+
+      de communiqués et de documentation institutionnelle
+
+      de textes normatifs ou quasi normatifs
+
+      de fiches d’information et de contenus administratifs multilingues
+
+
+      Il ne réécrit pas librement les textes et n’intervient pas sur des
+      préférences stylistiques subjectives : il signale uniquement des
+      violations objectives de la grammaire ou des directives rédactionnelles
+      applicables.
+    apiDocumentation: https://github.com/swiss/swiss-federal-writing-guidelines
+    features:
+      - Révision grammaticale complète du texte
+      - Vérification des règles rédactionnelles de la Chancellerie fédérale
+      - Distinction entre erreurs grammaticales et erreurs rédactionnelles
+      - Corrections motivées avec référence à la règle applicable
+      - Prise en charge du français, de l’allemand, de l’italien et de l’anglais
+        britannique
+      - Format de sortie structuré et exploitable pour la révision interne
+      - Génération d’un rapport de correction réutilisable
+  it-CH:
+    localisedName: Assistente redazionale della Confederazione svizzera
+    shortDescription: Verifica e corregge testi ufficiali in italiano, francese,
+      tedesco e inglese secondo le regole redazionali e tipografiche della
+      Cancelleria federale.
+    longDescription: >-
+      L’Assistente redazionale della Confederazione svizzera è pensato per la
+      verifica di testi ufficiali destinati all’Amministrazione federale o a
+      contesti istituzionali comparabili.
+
+
+      Il GPT opera in due passaggi. Nel primo esegue una revisione grammaticale
+      completa secondo la norma standard della lingua del testo. Nel secondo
+      controlla la conformità alle direttive editoriali e tipografiche della
+      Cancelleria federale, ad esempio per maiuscole e minuscole, date, numeri,
+      abbreviazioni, virgolette, lineette, spaziature e altre convenzioni
+      redazionali.
+
+
+      Il sistema supporta quattro lingue:
+
+
+      italiano (Svizzera)
+
+      francese (Svizzera)
+
+      tedesco (Svizzera)
+
+      inglese britannico
+
+
+      Per ogni problema rilevato, il GPT produce:
+
+
+      il tipo di errore
+
+      la posizione nel testo
+
+      il contesto
+
+      la forma originale
+
+      la correzione proposta
+
+      il riferimento alla regola applicabile
+
+
+      Questo strumento è particolarmente adatto per:
+
+
+      messaggi e rapporti
+
+      comunicati e documentazione istituzionale
+
+      testi normativi o para-normativi
+
+      schede informative e contenuti amministrativi multilingui
+
+
+      Non riscrive liberamente i testi e non interviene sullo stile in modo
+      soggettivo: segnala soltanto violazioni oggettive di grammatica o delle
+      direttive redazionali applicabili.
+    documentation: https://github.com/swiss/swiss-federal-writing-guidelines
+    features:
+      - Revisione grammaticale completa del testo
+      - Verifica delle regole redazionali della Cancelleria federale
+      - Distinzione tra errori grammaticali e errori redazionali
+      - Correzioni motivate con riferimento alla regola applicabile
+      - Supporto per italiano, francese, tedesco e inglese britannico
+      - Formato di output strutturato e pronto per la revisione interna
+      - Generazione di un rapporto di correzione utilizzabile come allegato
+legal:
+  license: NLPL
+maintenance:
+  type: community
+  contacts:
+    - name: Cyrille Gattiker
+      email: t601wh6zi@mozmail.com
+      affiliation: Swiss Federal Chancellery
+localisation:
+  localisationReady: true
+  availableLanguages:
+    - en
+    - fr
+    - de
+    - it
