@@ -4,6 +4,17 @@
 
 ---
 
+> [!WARNING]
+> **EN** — Only submit **non-classified** texts. Do not enter any classified, confidential, or sensitive text.
+>
+> **DE** — Es dürfen ausschliesslich **nicht klassifizierte** Texte eingegeben werden. Klassifizierte, vertrauliche oder schützenswerte Texte dürfen nicht verwendet werden.
+>
+> **FR** — Seuls des textes **non classifiés** peuvent être saisis. Ne saisissez aucun texte classifié, confidentiel ou sensible.
+>
+> **IT** — Inserire esclusivamente testi **non classificati**. Non immettere testi classificati, riservati o sensibili.
+
+---
+
 <a name="english"></a>
 ## 🇬🇧 English
 
